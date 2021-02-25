@@ -17,6 +17,22 @@ const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
+const nuevaString = 'hola'; 
+
+// Crea una variable numérica, puede ser cualquier número:
+const nuevoNum = 1; 
+
+// Crea una variable booleana:
+const nuevoBool = true; 
+
+// Resuelve el siguiente problema matemático:
+const nuevaResta = 10 - 5 == 5; 
+
+// Resuelve el siguiente problema matemático:
+const nuevaMultiplicacion = 10 * 4 == 40 ; 
+
+// Resuelve el siguiente problema matemático:
+const nuevoModulo = 21 % 5 === 1; 
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -35,13 +51,13 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  return x+y;
+  return x + y; 
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return x-y;
+  return x - y; 
 }
 
 function multiplica(x, y) {
@@ -104,8 +120,7 @@ function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
   return x % y;
-  
-}
+  }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
@@ -116,7 +131,6 @@ function esPar(num) {
   }else{
     return false;
   }
-
 }
 
 function esImpar(num) {
@@ -134,19 +148,24 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
+
   return Math.pow(num,2);
+
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+
   return Math.pow(num,3);
+
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
   return Math.pow(num,exponent);
+  return Math.pow (num, exponent);
 }
 
 function redondearNumero(num) {
@@ -159,6 +178,13 @@ function redondearNumero(num) {
   }else{
     return entero;
   }
+ var resto = num % 1;
+ var entero = num - resto;
+ if (resto >= 0.5){
+   return entero + 1;
+ }else {
+   return entero;
+ }
 }
 
 function redondearHaciaArriba(num) {
@@ -228,6 +254,7 @@ function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
   return base*altura/2;
+return base*altura/2;
 
 }
 
@@ -252,6 +279,8 @@ function esVocal(letra){
 if (letra=="a","e","i","o","u"){
     return "Es vocal";
   }
+
+
 }
 
 
