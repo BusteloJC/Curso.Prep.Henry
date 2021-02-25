@@ -1,22 +1,10 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'null';
+const nuevaString = 'hola'; 
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 1;
-
-// Crea una variable booleana:
-const nuevoBool = true;
-
-// Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - 5 === 5;
-
-// Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * 4 === 40 ;
-
-// Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 1;
+const nuevoNum = 1; 
 
 // Crea una variable booleana:
 const nuevoBool = true; 
@@ -39,8 +27,8 @@ const nuevoModulo = 21 % 5 === 1;
 
 function devolverString(str) {
   // "Return" la string provista: str
-  // Tu código:
-  return str;
+  // Tu código: 
+  return str; 
 }
 
 function suma(x, y) {
@@ -59,33 +47,34 @@ function resta(x, y) {
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  return x*y;
+  return x * y;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  return x/y;
+  return x / y;
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x===y){
+  if (x===y) {
     return true;
-  }else{
+  } else {
     return false;
   }
+  
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.length===str2.length){
+  if (str1.length === str2.length) {
     return true;
-  }else{
+  } else {
     return false;
   }
 }
@@ -95,19 +84,19 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num<90){
-    return true;
-  }else{
-    return false;
+    return true; 
+    }else {
+      return false;
+    }
   }
-}
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num>50){
+  if (num > 50){
     return true;
-  }else{
+  } else {
     return false;
   }
 }
@@ -116,7 +105,7 @@ function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
   return x % y;
-  }
+}
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
@@ -124,7 +113,7 @@ function esPar(num) {
   // Tu código:
   if (num % 2 === 0){
     return true;
-  }else{
+  } else{
     return false;
   }
 }
@@ -135,8 +124,8 @@ function esImpar(num) {
   // Tu código:
   if (num % 2 !== 0){
     return true;
-  }else{
-    return falsfe;
+  } else { 
+    return false;
   }
 }
 
@@ -144,36 +133,24 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-
-  return Math.pow(num,2);
-
+  return Math.pow(num, 2);
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-
-  return Math.pow(num,3);
-
+  return Math.pow (num, 3);
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return Math.pow(num,exponent);
   return Math.pow (num, exponent);
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  var resto = num % 1;
-  var entero = num - resto;
-  if (resto >= 0.5){
-    return entero + 1;
-  }else{
-    return entero;
-  }
  var resto = num % 1;
  var entero = num - resto;
  if (resto >= 0.5){
@@ -194,7 +171,6 @@ function numeroRandom() {
   //Pista: investigá qué hace el método Math.random()
   return Math.random();
 }
-
 
 function esPositivo(numero) {
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
@@ -249,9 +225,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  return base*altura/2;
 return base*altura/2;
-
 }
 
 
@@ -275,7 +249,6 @@ function esVocal(letra){
 if (letra=="a","e","i","o","u"){
     return "Es vocal";
   }
-
 
 }
 
