@@ -17,8 +17,6 @@ const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
-// Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 1; 
 
 // Crea una variable booleana:
 const nuevoBool = true; 
