@@ -17,8 +17,6 @@ const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
-const nuevaString = 'hola'; 
-
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 1; 
 
@@ -140,7 +138,7 @@ function esImpar(num) {
   if (num % 2 !== 0){
     return true;
   }else{
-    return false;
+    return falsfe;
   }
 }
 
